@@ -32,6 +32,7 @@ apply plugin: 'kotlin-android'
 
 android {
     compileSdkVersion 28
+    namespace 'com.gstory.flutter_unionad'
 
     sourceSets {
         main.java.srcDirs += 'src/main/kotlin'
